@@ -279,7 +279,7 @@ echo -e "${WHITE} Enter The Fourth selection of Numbers of your server IP EX:185
 read fourth
 clear
 echo -e ""
-cd /bot/
+cd bot/
 rm -rf includes.h
 echo -e "#pragma once" > includes.h
 echo -e " " > includes.h
